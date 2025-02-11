@@ -25,7 +25,7 @@ import tensorflow as tf
 import tensorflow.keras
 #import keras
 from tensorflow.python.trackable import data_structures
-from tensorflow.python import keras
+from tensorflow import keras
 
 import neurallog.network.layer_factory
 from neurallog.knowledge.graph import RuleGraph, Edge
