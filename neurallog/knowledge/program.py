@@ -20,7 +20,8 @@ import copy
 import logging
 import re
 import sys
-from collections import OrderedDict, deque, Collection
+from collections import OrderedDict, deque
+from collections.abc import Collection
 from typing import TypeVar, MutableMapping, Dict, Any, List, Set, Tuple
 
 import numpy as np

@@ -15,7 +15,7 @@
 """
 Handles equivalent clauses.
 """
-from collections import Collection
+from collections.abc import Collection
 from typing import Optional, Dict, Set, List
 
 from neurallog.language.language import Atom, Term, Literal, HornClause, \

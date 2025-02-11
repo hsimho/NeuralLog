@@ -18,7 +18,8 @@ Handle the revision operators.
 import itertools
 import logging
 from abc import abstractmethod
-from collections import Collection, deque
+from collections.abc import Collection
+from collections import deque
 from typing import Dict, Set, List, Deque, TypeVar, Any
 
 import neurallog.structure_learning.structure_learning_system as sls

@@ -17,7 +17,8 @@ Handles some revision operators that append literals to the clause.
 """
 import random
 from abc import abstractmethod
-from collections import Collection, deque
+from collections import deque
+from collections.abc import Collection 
 from typing import TypeVar, Generic, Set, Dict, List, Tuple
 
 from neurallog.knowledge.examples import Examples, ExampleIterator, \

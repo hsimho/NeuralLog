@@ -15,15 +15,17 @@
 """
 File to define custom functions to use in the network.
 """
-from collections import deque, Sequence
+from collections import deque
+from collections.abc import Sequence
 from functools import reduce
 from typing import Dict, Callable
 
 import bert
 import tensorflow as tf
 import tensorflow.keras
-from tensorflow.python.training.tracking import data_structures
-from tensorflow_core.python import keras
+#import keras
+from tensorflow.python.trackable import data_structures
+from tensorflow.python import keras
 
 import neurallog.network.layer_factory
 from neurallog.knowledge.graph import RuleGraph, Edge

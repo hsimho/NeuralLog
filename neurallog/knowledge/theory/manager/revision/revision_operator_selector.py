@@ -17,7 +17,7 @@ Handles the selection of the revision operators.
 """
 import logging
 from abc import abstractmethod, ABC
-from collections import Collection
+from collections.abc import Collection
 
 import neurallog.structure_learning.structure_learning_system as sls
 from neurallog.knowledge.examples import Examples

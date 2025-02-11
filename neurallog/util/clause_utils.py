@@ -15,7 +15,7 @@
 """
 Useful methods to deal with Horn clauses.
 """
-from collections import Collection, Iterable
+from collections.abc import Iterable, Collection
 from typing import Set, List, Callable, TypeVar
 
 from neurallog.language.language import Literal, Atom, Term, \

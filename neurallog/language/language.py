@@ -18,7 +18,7 @@ Define the classes to represent the knowledge of the system.
 
 import re
 from abc import ABC, abstractmethod
-from collections import Collection
+from collections.abc import Collection
 
 TRAINABLE_KEY = "$"
 
